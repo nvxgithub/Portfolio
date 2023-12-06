@@ -1,0 +1,86 @@
+.main_container
+{
+    display:flex;
+    width:100%;
+}
+.left_column
+{
+    flex: 1;
+    padding: 0;
+    background-color: rgb(25, 25, 25);
+    color: white;
+    font-family:verdana ;
+    margin: 0;
+}
+.right_column
+{
+    flex: 4;
+    padding: 0;
+    margin: 0;
+}
+.nametag{
+    background-color: rgb(255, 166, 0);
+    width: 100%;
+    font-family:verdana;
+    padding:20px;
+    margin-top: 20px;
+
+}
+.education{
+    font-family:verdana;
+    margin-left:30px;
+}
+.about
+{
+    font-family:verdana;
+    margin-left:30px;
+}
+.contact hr{
+    border: 1px solid rgb(255, 166, 0);
+    margin-left: 8%;
+}
+.skills hr{
+    border: 1px solid rgb(255, 166, 0);
+    margin-left: 8%;
+}
+
+
+ul{
+    list-style-type: none;
+  }
+
+.skill{
+    font-family:verdana;
+    margin-left:30px;
+}
+
+.contact li{
+    background-color: rgb(46, 46, 46);
+    margin-top: 3px;
+}
+.contact p{
+    background-color:rgb(25, 25, 25);
+    font-size: 10pt;
+    padding: 10px;
+}
+.project{
+margin-left: 30px;
+font-family:verdana;
+}
+.project p{
+    margin-left:50;
+    
+    }
+.profileimage{
+
+    margin-left: auto;
+    margin-right: auto;
+}
+table,tr,td{
+    text-align: left;
+    vertical-align: top;
+    padding:10px;
+}
+.education p{
+    font-size: 12px;
+}
