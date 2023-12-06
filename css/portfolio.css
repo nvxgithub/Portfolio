@@ -14,7 +14,7 @@
 }
 .right_column
 {
-    flex: 4;
+    flex: 2;
     padding: 0;
     margin: 0;
 }
@@ -95,9 +95,15 @@ table,tr,td{
 }
 .contact h4{
     font-size: 15px;
-    text-align: right;
+    text-align: left;
     color:rgb(111, 111, 111);
     padding:5px;
     margin: 0px;
+    margin-left: 30px;
 }
-
+.left_column p
+{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+}
